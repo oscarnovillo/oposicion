@@ -5,9 +5,16 @@
  */
 package miprimerswing;
 
+import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.event.MouseMotionListener;
 import javax.swing.JButton;
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
 /**
@@ -22,20 +29,53 @@ public class NewJFrame extends javax.swing.JFrame {
     public NewJFrame() {
         initComponents();
 
-        JButton but = new JButton();
+        this.setSize(500, 500);
         but.setText("mi primer boton");
+        but.setSize(200, 100);
+
         but.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(rootPane, "HOLa MUNDO");
-                
+                label.setText("HOLA MUNDO");
+                //JOptionPane.showMessageDialog(rootPane, "HOLa MUNDO");
+
             }
 
         });
-        this.add(but,new org.netbeans.lib.awtextra.AbsoluteConstraints(246, 110, -1, -1) );
+        String text;
+        int num = Integer.parseInt("tt");
 
-        
-        
+        text = (num % 2) == 0 ? "par" : "impar";
+
+        if ((num % 2) == 0) {
+            text = "par";
+        } else {
+            text = "impar";
+        }
+
+        JOptionPane.showMessageDialog(rootPane, text);
+
+        but.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseEntered(MouseEvent e) {
+                jButton1.setBackground(Color.red);
+            }
+
+            @Override
+            public void mouseExited(MouseEvent e) {
+                jButton1.setBackground(Color.blue);
+            }
+
+        });
+
+        label.setText("text");
+        this.add(label);
+        label.setBounds(100, 100, 100, 100);
+
+        getContentPane().add(but);
+
+        but.setBounds(0, 0, 100, 100);
+
     }
 
     /**
@@ -50,7 +90,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().setLayout(null);
 
         jButton1.setText("jButton1");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -58,7 +98,8 @@ public class NewJFrame extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(146, 110, -1, -1));
+        getContentPane().add(jButton1);
+        jButton1.setBounds(146, 63, 73, 70);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -104,6 +145,8 @@ public class NewJFrame extends javax.swing.JFrame {
         });
     }
 
+    private JButton but = new JButton();
+    private JLabel label = new JLabel();
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     // End of variables declaration//GEN-END:variables
