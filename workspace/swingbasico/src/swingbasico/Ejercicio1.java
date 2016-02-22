@@ -14,6 +14,10 @@ import javax.swing.JLabel;
 
 public class Ejercicio1 extends JFrame {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField textField;
 	private JButton btnNewButton;
