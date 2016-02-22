@@ -1,0 +1,20 @@
+
+IMPORTANTE...¡¡¡
+
+Descomprime primero el archivo...
+
+El proyecto solo se puede abrir desde Netbeans, abren Netbeans 
+y se van a "Archivo" -> "Abrir Proyecto" y seleccionan 
+"EJERCICIOS INTERFAZ 02" en la carpeta donde 
+descomprimieron...  es facil de reconocer por que el
+proyecto tiene el logo de una taza de cafe... 
+
+Este y muchos Videotutoriales los puedes encontrar en
+mi Blogger http://javadhc.blogspot.com o en mi canal de 
+Youtube http://www.youtube.com/user/shamirdhc31/videos
+
+Cualquier duda o ejercicio que no puedan resolver,
+me pueden enviar a mi correo shamirdhc31@gmail.com
+y yo les inviare prontamente una respuesta...
+
+gracias....
