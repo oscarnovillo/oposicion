@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-mar-2016, 23:35:12
+    Author     : oscar
+*/
+#AnchorPane{
+    -fx-background-color: grey;
+    -fx-effect: innershadow(gaussian,red,1,1,1,1);
+}
+#label{
+    -fx-text-fill: aquamarine;
+    
+}
+.boton{
+    
+    -fx-background-color: red;
+    -fx-effect: dropshadow(one-pass-box,grey,10,10,10,10);
+}
