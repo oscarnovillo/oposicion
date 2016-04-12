@@ -20,6 +20,9 @@
     Sub ejemplo1()
         Dim vector() As Integer
         Dim longitud As Integer
+        Dim a As ArrayList
+
+        a = New ArrayList
         Dim i As Integer = 0, j As Integer
         Dim salir As Boolean
         Try
@@ -27,7 +30,6 @@
             longitud = Console.ReadLine()
         Catch e As Exception
             Console.WriteLine("El error ocurrido es : {0}", e.ToString)
-
         End Try
         longitud -= 1
 
@@ -36,7 +38,11 @@
             Do
                 Try
                     Console.WriteLine("Introduzca el elemento {0}", i + 1)
-                    vector(i) = CType(Console.ReadLine(), Integer)
+                    Dim num As Integer
+                    num = CType(Console.ReadLine(), Integer)
+                    vector(i) = num
+                    a.Add(num)
+
                     salir = True
                 Catch e As InvalidCastException
                     salir = False
@@ -48,6 +54,10 @@
             Loop Until salir
         Next
         j = 1
+        For Each num As Integer In a
+            Console.WriteLine("{0}", num)
+        Next
+
         For i = 0 To vector.Length - 1
             Console.Write("{0}{1}", vector(i).ToString, vbTab)
             If j = 3 Then
@@ -58,5 +68,8 @@
         Next
         Console.ReadLine()
     End Sub
+
+
+
 
 End Module
