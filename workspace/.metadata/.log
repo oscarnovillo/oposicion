@@ -297,3 +297,15 @@ Caused by: java.io.IOException: El proceso no tiene acceso al archivo porque otr
 	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getEntryContentLength(WorkingTreeIterator.java:535)
 	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:183)
 	... 7 more
+
+!ENTRY org.eclipse.egit.core 4 0 2016-03-04 23:45:03.060
+!MESSAGE An exception occurred during push on URI https://oscarnovillo@github.com/oscarnovillo/oposicion.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1197)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:197)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:297)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 4 0 2016-03-04 23:45:03.066
+!MESSAGE Can't connect to any repository: https://oscarnovillo@github.com/oscarnovillo/oposicion.git (Nothing to push.)
