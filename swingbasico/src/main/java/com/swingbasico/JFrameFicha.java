@@ -15,6 +15,7 @@ public class JFrameFicha extends javax.swing.JFrame {
      * Creates new form JFrameFicha
      */
     public JFrameFicha() {
+        
         initComponents();
     }
 
