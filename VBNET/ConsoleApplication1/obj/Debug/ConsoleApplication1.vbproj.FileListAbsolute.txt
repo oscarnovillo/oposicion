@@ -1,0 +1,10 @@
+C:\Users\oscar\Documents\CLASES ALCALA\oposiciones\codigo\oposicion\VBNET\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\oscar\Documents\CLASES ALCALA\oposiciones\codigo\oposicion\VBNET\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\oscar\Documents\CLASES ALCALA\oposiciones\codigo\oposicion\VBNET\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\oscar\Documents\CLASES ALCALA\oposiciones\codigo\oposicion\VBNET\ConsoleApplication1\bin\Debug\ConsoleApplication1.xml
+C:\Users\oscar\Documents\CLASES ALCALA\oposiciones\codigo\oposicion\VBNET\ConsoleApplication1\obj\Debug\ConsoleApplication1.vbprojResolveAssemblyReference.cache
+C:\Users\oscar\Documents\CLASES ALCALA\oposiciones\codigo\oposicion\VBNET\ConsoleApplication1\obj\Debug\ConsoleApplication1.Resources.resources
+C:\Users\oscar\Documents\CLASES ALCALA\oposiciones\codigo\oposicion\VBNET\ConsoleApplication1\obj\Debug\ConsoleApplication1.vbproj.GenerateResource.Cache
+C:\Users\oscar\Documents\CLASES ALCALA\oposiciones\codigo\oposicion\VBNET\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\oscar\Documents\CLASES ALCALA\oposiciones\codigo\oposicion\VBNET\ConsoleApplication1\obj\Debug\ConsoleApplication1.xml
+C:\Users\oscar\Documents\CLASES ALCALA\oposiciones\codigo\oposicion\VBNET\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
