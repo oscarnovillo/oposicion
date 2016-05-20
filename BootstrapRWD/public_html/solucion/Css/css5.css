@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-ene-2016, 12:31:41
+    Author     : Miguy
+*/
+
+  .fneg {
+                box-sizing: border-box;
+                background-color: black;
+                color: white;
+                font-family: sans-serif;
+                font-weight: bold;
+                font-size: 20px;
+                padding: 5px;
+                letter-spacing: 10px;
+                bottom: 0px; }
+            
+            .lista{
+                   
+                   font-family: sans-serif;
+                   text-decoration: underline;}
+            .po{padding: 0px;}
+            .imagen{width: 500px;
+    height: 400px;}
+            body{background: gray}

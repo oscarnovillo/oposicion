@@ -1,0 +1,25 @@
+Coge la solución del profesor del examen y cambia los 3 css, menu, pag2 y tablas, para que se generen desde less y sass. Bajo las siguientes premisas.
+
+En menu.css, los colores de los menus ponlos en variables para poder cambiarlos de manera fácil.
+
+En pag2, al alto de la imagen de #div1_3 img tiene que ser siempre la mitad del alto de la imagen #div2_1 img
+
+en tablas, el padding del interior será igual al del exterior +10px.
+
+Usa mixins si los necesitas.
+
+Añade una pagina nueva con bootstrap y materialize cambiando una caracteristica por defecto:
+
+En bootstrap, que las lineas de border de los input sean en rojo y su fondo por defecto en amarillo.
+
+El fondo del jumbotron que sea azul.
+
+El color de fondo de las tablas stripped en las filas stripped sean verde.
+
+En materialize:
+
+El color de table stripped cambiarlo a azul
+
+En los input el color de las lineas cuando lo seleccionas que sea azul
+
+El color de fondo de los botones que sea azul.

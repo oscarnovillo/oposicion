@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-ene-2016, 13:21:10
+    Author     : Carlos_Xu <Carlos_Xu  @https://bitbucket.org/Carlos_Xu/>
+*/
+
+@relleno: 10px;
+
+#exterior {
+    padding: @relleno;
+    width: 100%;
+    background: grey;
+    caption {
+        background: antiquewhite;
+        border: 2px red dotted;
+    }
+    td {
+        height: 100px;
+        width: 25%;
+        text-align: justify;
+        vertical-align: bottom;
+        margin: 10px;
+        padding: 10px;
+        background: burlywood;
+    }
+}
+
+#interior {
+    padding: @relleno;
+    width: 100%;
+    background: aqua;
+    td {
+        background-color: coral;
+    }
+}
+
+.borderBottom {
+    border-bottom: 2px red dashed;
+    vertical-align: top !important;
+}
+
+.overflow {
+    text-align: left !important;
+    overflow: scroll;
+}

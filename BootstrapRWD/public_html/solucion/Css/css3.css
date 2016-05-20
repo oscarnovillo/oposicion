@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17-ene-2016, 12:30:46
+    Author     : Miguy
+*/
+
+ .centrado{margin: 10px;}
+            .fg {background: grey;  color:white; font-weight:  bolder;}
+            .borde{border: 2px grey solid}
+            img{width: 100px; height: 100px; border:#5e5e5e solid 1px; }
+            .titulo {   font-family: 'Mountains of Christmas', cursive;
+                        width: 100%;
+                        text-align: center;
+                        font-size: 48px;
+                        color:blueviolet;
+                        word-spacing: 15px;
+                        letter-spacing: 5px;
+                        margin: 20px;
+                        text-transform: uppercase; }
+            .container-fluid{  border: 10px burlywood solid;
+                   background-color: blanchedalmond;
+                   height: 95vh;
+                   box-sizing: border-box;}
+            fondo{background: yellowgreen;}

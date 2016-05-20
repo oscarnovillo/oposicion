@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-ene-2016, 17:49:50
+    Author     : Alvaro
+*/
+
+body{
+    background: lightcoral;
+    margin: 2px;
+}
+.encima{
+    background: white;
+    border-top: 3px solid darkred;
+    border-bottom: 3px solid darkred;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.medio{
+    background: white;
+    border: 1px solid darkred;
+    width: 10%;
+    vertical-align: auto;
+    float: left;
+}
+.medio1{
+    background: white;
+    height: 470px;
+    width: 85%;
+    float: right;
+    overflow: auto;
+    font-size: 16px;
+}
+.medio2{
+    background: darkred;
+    width: 85%;
+    float: right;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.medio3{
+    background: white;
+    border: 1px solid darkred;
+    width: 10%;
+    vertical-align: auto;
+    margin-top: 12px;
+}
+img{
+    border-top: 2px solid darkred;
+    border-bottom: 2px solid darkred;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imagen{
+    text-align: center;
+}
+.negro{
+    font-weight: bold;
+}

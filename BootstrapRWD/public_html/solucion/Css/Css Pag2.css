@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13-ene-2016, 9:25:54
+    Author     : dam1
+*/
+
+body{
+    background: grey;
+}
+.cabecera{
+    background: #ffcc99;
+    border: 2px dotted red;
+}
+.tabla{
+    margin: 0px;
+}
+.marron{
+    background: #c0a16b;
+    border: 10px solid grey;
+    border-bottom: 2px solid grey;
+}
+.azul{
+    background: #46b8da;
+    border: 10px solid #c0a16b;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.texto{
+    background: orange;
+    vertical-align: bottom;
+    border: 2px solid #46b8da;
+}
+.lineas{
+    background: orange;
+    border-bottom: 1px dashed red;
+    border-top: 2px solid #46b8da;
+}
+.marron2{
+    background: #c0a16b;
+    border: 10px solid grey;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.texto2{
+    background: #c0a16b;
+    border-right: 2px solid grey;
+}
+.texto3{
+    background: #c0a16b;
+    border-bottom: 2px dashed red;
+    border-right: 2px solid grey;
+}
+.texto4{
+    background: #c0a16b;
+    overflow: scroll;
+    border-right: 2px solid grey;
+    vertical-align: bottom;
+}
+.texto5{
+    background: #c0a16b;
+}
+.marron3{
+    background: #c0a16b;
+    border: 10px solid grey;
+    border-top: 2px solid grey;
+}

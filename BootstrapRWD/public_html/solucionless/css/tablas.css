@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-ene-2016, 13:21:10
+    Author     : Carlos_Xu <Carlos_Xu  @https://bitbucket.org/Carlos_Xu/>
+*/
+#exterior {
+  padding: 10px;
+  width: 100%;
+  background: grey;
+}
+#exterior caption {
+  background: antiquewhite;
+  border: 2px red dotted;
+}
+#exterior td {
+  height: 100px;
+  width: 25%;
+  text-align: justify;
+  vertical-align: bottom;
+  margin: 10px;
+  padding: 10px;
+  background: burlywood;
+}
+#interior {
+  padding: 10px;
+  width: 100%;
+  background: aqua;
+}
+#interior td {
+  background-color: coral;
+}
+.borderBottom {
+  border-bottom: 2px red dashed;
+  vertical-align: top !important;
+}
+.overflow {
+  text-align: left !important;
+  overflow: scroll;
+}
+/*# sourceMappingURL=tablas.css.map */
